@@ -6,7 +6,7 @@ const LoginPage = () => {
   const entereduser = useRef();
   const enteredPassword = useRef();
 
-  const [log, setLog] = useState(false);
+  const [log, setLog] = useState(0);
 
   // console.log(user);
 
