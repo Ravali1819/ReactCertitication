@@ -1,0 +1,39 @@
+.medicine_cards {
+  display: flex;
+}
+
+.medicine_card {
+  padding: 20px;
+  box-shadow: 2px 4px 2px #ccc;
+  margin: 20px;
+  width: 23%;
+  height: 30%;
+}
+
+.medicine_nav {
+  background-color: cadetblue;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.medicine_nav h1 {
+  font-size: 34px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.medicine_nav button {
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: darkred;
+  font-size: 16px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.medicine_nav button:hover {
+  background-color: darkgoldenrod;
+}

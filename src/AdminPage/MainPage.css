@@ -1,0 +1,42 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.cards div {
+  width: 23%;
+  margin: 100px 10px 10px;
+  box-shadow: 2px 4px 2px #ccc;
+}
+
+.cards img {
+  width: 100%;
+}
+
+.admin_nav {
+  width: 100%;
+  background-color: cadetblue;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin_nav h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 34px;
+}
+
+.admin_nav button {
+  border: none;
+  padding: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.admin_nav button:hover {
+  background-color: saddlebrown;
+}
